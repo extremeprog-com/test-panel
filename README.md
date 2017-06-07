@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/extremeprog-com/test-panel/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Usage
+```html
+<script>
+  window.testPanelData = {
+    sourceId: '[sourceId]',
+    sheetId: '[sheetId]',
+  };
+</script>
+<script src="https://extremeprog-com.github.io/test-panel/test-panel.js"></script>
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Find arguments
+* Go to the https://spreadsheets.google.com/feeds/worksheets/[sourceId]/private/full
+* Default sheetId refers to od6
+* Find your sheet and detect sheetId
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/extremeprog-com/test-panel/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Example of arguments
+* [sourceId] = 1x-S3x9R_iOGbrMwDwvYS6qAYDEhXrEa5HLEWlUu6ocs
+* [sheetId] = od6
